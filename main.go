@@ -5,7 +5,7 @@ import (
 	"os/exec"
 )
 
-const pathToGoland = "/Applications/GoLand 1.0 EAP.app/Contents/MacOS/goland"
+const pathToGoland = "/Applications/GoLand/Contents/MacOS/goland"
 
 func main() {
 	d, err := os.Getwd()
